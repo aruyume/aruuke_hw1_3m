@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">aruuke_rakhmanova_hw_1_3m</string>
+    <string name="vvedite">Введите пароль:</string>
+    <string name="otpravit">Отправить</string>
 </resources>

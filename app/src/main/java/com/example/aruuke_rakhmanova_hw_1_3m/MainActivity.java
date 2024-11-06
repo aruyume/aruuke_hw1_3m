@@ -1,13 +1,11 @@
 package com.example.aruuke_rakhmanova_hw_1_3m;
 
+import static com.example.aruuke_rakhmanova_hw_1_3m.R.id.btn_send;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,9 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText passwordEditText = findViewById(R.id.password);
-        Button button = findViewById(R.id.btn);
-
+        EditText passwordEditText = findViewById(R.id.et_enterPassword);
+        Button button = findViewById(btn_send);
 
         button.setOnClickListener(v -> {
             String password = passwordEditText.getText().toString();

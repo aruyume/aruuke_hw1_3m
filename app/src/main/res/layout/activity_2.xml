@@ -9,7 +9,7 @@
     android:background="@drawable/img">
 
     <TextView
-        android:id="@+id/passwordTV"
+        android:id="@+id/tv_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,5 +19,4 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
